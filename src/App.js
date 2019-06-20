@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
+import Graph from './components/Graph'
 
-function App() {
-  return (
+function App(props) {
+  return (  
     <div className="App">
-      <svg>
-        <circle cx={50} cy={50} r={10} fill="red" />
-      </svg>
+      <Graph data={props.data} />
     </div>
   );
 }
