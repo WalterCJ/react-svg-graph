@@ -3,5 +3,5 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import data from './scripts/data'
 
-ReactDOM.render(<App data={data}/>, document.getElementById('root'));
+ReactDOM.render(<App datasets={data} />, document.getElementById('root'));
 

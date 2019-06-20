@@ -26,8 +26,8 @@ function Graph(props) {
     )
 }
 Graph.defaultProps = {
-    width: 600,
-    height: 800
+    width: 400,
+    height: 600
 };
 export default Graph
 
